@@ -847,6 +847,7 @@ img {
 }
 
 .form__input {
+  padding-left: 42px;
   height: 40px;
   width: 100%;
   border-radius: 4px;
@@ -857,17 +858,20 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form__input--field {
-  padding-left: 42px;
-}
-
-.form__input--comment {
+.form__textarea {
   height: 120px;
   padding: 12px 16px;
   resize: none;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
- .form__input--comment::placeholder {
+ .form__textarea::placeholder {
   font-style: normal;
   font-weight: var(--secondary-font-weight);
   font-size: 14px;
@@ -876,7 +880,8 @@ img {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.form__input:focus {
+.form__input:focus,
+.form__textarea:focus {
   outline: none;
   border-color: var(--accent-color);
 }
