@@ -226,7 +226,6 @@ img {
   line-height: 1.88;
   letter-spacing: 0.06em;
   cursor: pointer;
-  outline: transparent;
 }
 
 /* Overlay hero */
@@ -591,7 +590,6 @@ img {
   border-radius: 4px;
   border-style: none;
   cursor: pointer;
-  outline: transparent;
   
   font-family: inherit;
   font-style: normal;
@@ -898,12 +896,12 @@ img {
   margin-bottom: 30px;
 } 
 
-.checkbox__old+.checkbox__label {
+.checkbox__label {
   display: inline-flex;
   align-items: center;
 }
 
-.checkbox__old+.checkbox__label::before {
+.checkbox__label::before {
   content: " ";
   display: inline-block;
   width: 16px;
@@ -917,7 +915,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox__old:checked+.checkbox__label::before {
+.checkbox__old:checked + .checkbox__label::before {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
   background-image: url(../images/checked.svg);
@@ -940,7 +938,7 @@ img {
   color: var(--accent-color);
 }
 
-.checkbox__old:focus+.checkbox__label::before {
+.checkbox__old:focus + .checkbox__label::before {
   border: 2px solid var(--accent-color);
 }
 
@@ -963,5 +961,4 @@ img {
   color: var(--primary-white-color);
 
   cursor: pointer;
-  outline: transparent;
 }
