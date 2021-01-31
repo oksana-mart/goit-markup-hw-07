@@ -14,8 +14,7 @@
   cursor: pointer;
   outline: transparent;
 
-  transition-duration: $animation-duration;
-  transition-timing-function: $animation-type;
+  @extend %animation;
 
   &:hover,
   &:focus {

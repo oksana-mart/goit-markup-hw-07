@@ -17,17 +17,14 @@
 }
 
 .footer-networks__links {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %flex;
   width: 44px;
   height: 44px;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   color: $primary-white-color;
 
-  transition-duration: $animation-duration;
-  transition-timing-function: $animation-type;
+  @extend %animation;
 
   &:hover,
   &:focus {

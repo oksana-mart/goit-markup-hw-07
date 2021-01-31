@@ -10,8 +10,7 @@
   padding: 32px 0;
   fill:$main-text-color;
 
-  transition-duration: $animation-duration;
-  transition-timing-function: $animation-type;
+  @extend %animation;
 
   &--mail {
     margin-right: 50px;

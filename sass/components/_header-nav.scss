@@ -26,8 +26,7 @@
   display: block;
   padding: 32px 0;
 
-  transition-duration: $animation-duration;
-  transition-timing-function: $animation-type;
+  @extend %animation;
 }
 
 &::after {
@@ -41,8 +40,7 @@
   background: $accent-color;
   border-radius: 2px;
   opacity: 0;
-  transition-duration: $animation-duration;
-  transition-timing-function: $animation-type;
+  @extend %animation;
 
   &:hover,
   &:focus {

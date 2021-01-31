@@ -48,17 +48,14 @@
   }
   
   &__link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %flex;
     width: 44px;
     height: 44px;
     border: none;
     border-radius: 50%;
     color: $icon-main-color;
   
-    transition-duration: $animation-duration;
-    transition-timing-function: $animation-type;
+    @extend %animation;
   }
   
   &__icon {
