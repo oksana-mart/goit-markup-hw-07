@@ -20,8 +20,8 @@
   position: relative;
   color: $secondary-text-color;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  font-size: $main-font-size;
+  line-height: $main-line-height;
   letter-spacing: 0.02em;
   display: block;
   padding: 32px 0;
