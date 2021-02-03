@@ -26,7 +26,8 @@
   min-width: 528px;
   min-height: 581px;
   background: $primary-white-color;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
 
@@ -49,11 +50,11 @@
     fill: currentColor;
     @extend %animation;
   }
-  
+
   &:focus {
     outline: none;
   }
-  
+
   &:focus &__icon,
   &:hover &__icon {
     color: $accent-color;
@@ -65,17 +66,5 @@
   display: block;
   margin: 0 auto;
   padding: 10px 55px 10px 56px;
-  min-width: 200px;
-  border-radius: 4px;
-  border-style: none;
-  background: $accent-color;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
-  font-family: inherit;
-  font-weight: $main-font-weight;
-  font-size: $secondary-font-size;
   line-height: 1.88;
-  letter-spacing: 0.06em;
-  color: $primary-white-color;
-  cursor: pointer;
 }

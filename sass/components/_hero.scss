@@ -13,23 +13,10 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
   }
-  
+
   &__button {
     display: inline-block;
     padding: 10px 32px;
-    min-width: 200px;
-    border-radius: 4px;
-    font-family: inherit;
-    border-style: none;
-  
-    color: $primary-white-color;
-    background: $accent-color;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    
-    font-size: $secondary-font-size;
-    font-weight: $main-font-weight;
     line-height: 1.88;
-    letter-spacing: 0.06em;
-    cursor: pointer;
   }
 }

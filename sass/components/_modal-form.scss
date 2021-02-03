@@ -12,9 +12,9 @@
     font-size: 20px;
     line-height: 1.15;
     text-align: center;
-    color: $secondary-text-color
+    color: $secondary-text-color;
   }
-  
+
   &__element {
     display: block;
     margin-bottom: 4px;
@@ -22,9 +22,9 @@
     font-size: 12px;
     line-height: $secondary-line-height;
     letter-spacing: 0.01em;
-    color: $main-text-color
+    color: $main-text-color;
   }
-  
+
   &__svg {
     position: absolute;
     left: 12px;
@@ -32,11 +32,11 @@
     fill: $secondary-text-color;
     @extend %animation;
   }
-  
+
   &__comment {
     margin-bottom: 20px;
   }
-  
+
   &__input {
     padding-left: 42px;
     height: 40px;
@@ -52,7 +52,7 @@
     outline: none;
     border-color: $accent-color;
   }
-    
+
   .field:focus-within &__svg {
     fill: $accent-color;
   }
